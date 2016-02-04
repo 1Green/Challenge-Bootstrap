@@ -1,0 +1,118 @@
+html * {
+	box-sizing:border-box;
+}
+
+body {
+	background-color: grey;
+	overflow-x:hidden;
+}
+
+
+#head {
+	color:white;	
+	background-image:url(http://www.acclaimimages.com/_gallery/_free_images/0519-0908-1719-4646_businessman_writing_in_a_ledger_o.jpg);
+	background-size: cover;
+	background-color: rgba(0,0,0,0.5);
+	background-blend-mode:darken;
+}
+
+
+#head-div {
+	position:relative;
+	margin-top:15%;
+	margin-bottom: 15%;
+}
+
+#head-div p {
+	font-size:1.2em;
+	text-shadow:1px 1px 1px black;
+}
+
+#head-div h1 {
+	font-size: 3.5em;
+	font-weight: 300;
+	text-shadow:3px 3px 2px black;
+
+}
+
+#head-div * {
+	margin-top:10px;
+	line-height: 200%;
+}
+
+#main {
+	background-color: #217AEA;
+	text-align:center;
+	color:white;
+}
+
+#main div {
+	margin-top:7%;
+	margin-bottom:7%;
+}
+
+#main i {
+	margin-bottom:20px;
+	color:white;
+}
+
+#main div:hover *{
+	color:#333;
+	text-shadow:0 0 2px white;
+
+}
+
+
+
+#input {
+	background-color: white;
+	text-align: center;
+	padding-top:7%;
+	padding-bottom: 7%;
+	line-height: 260%;
+}
+
+#input h1 {
+	font-weight: 300;
+}
+
+#maps {
+	background-image: url("https://i.kinja-img.com/gawker-media/image/upload/ojby5fx5vgxsfhihqq1o.png");
+	height:500px;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+
+
+#footer {
+	background-color: black;
+	color:white;
+}
+
+#footer i {
+	margin-right: 10px;
+	margin-top:30px;
+}
+
+#footer i:hover {
+	color:#8C9C8E;
+	text-shadow:0 0 2px 2px white;
+}
+
+#footer p {
+	margin-top:30px;
+	margin-bottom:30px;
+}
+
+#map-container {
+	height:500px;
+}
+
+
+
+
+
+
+
+
